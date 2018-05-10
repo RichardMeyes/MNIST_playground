@@ -1,5 +1,8 @@
 # PyCharm project folder
 .idea/
 
+# data folder
+data/
+
 # plots folder
 plots/
