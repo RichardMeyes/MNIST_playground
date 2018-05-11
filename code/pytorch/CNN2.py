@@ -7,12 +7,12 @@ import torchvision.transforms as transforms
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 # Hyper parameters
-num_epochs = 5
+num_epochs = 10
 num_classes = 10
-batch_size = 100
+batch_size = 200
 learning_rate = 0.001
 
-# MNIST dataset
+# MNIST data set
 train_dataset = torchvision.datasets.MNIST(root='../../data/',
                                            train=True,
                                            transform=transforms.ToTensor(),
